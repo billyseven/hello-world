@@ -1,0 +1,78 @@
+Game	Tempest
+Description	Math Box signature test #1
+Author	billyseven
+Contributors	Info taken from Atari Tempest Troubleshooting Guide.
+Notes	Connect 1k resistor between probe tip and 5vdc where noted in signal column.
+Start	POS
+Stop	POS
+Clock	POS
+Stop to start	True
+Clock to Phase2	
+Enable addr counter	
+Start to A15	
+Force Write	FALSE
+NOP Mode	FALSE
+Signal	Location	Pin	Signature
+ 	C1	11	H58A
+ 	C1	12	77F7
+ 	C1	13	85PA
+ 	C1	14	7P25
+ 	D1	11	5CP0
+ 	D1	12	P5PH
+ 	D1	13	725C
+ 	D1	14	96PF
+ 	F1	12	4PPF
+ 	F1	11	0UF0
+ 	F1	10	3CAP
+ 	F1	9	A6A3
+ 	H1	12	26A6
+ 	H1	11	91HA
+ 	H1	10	P9C1
+ 	H1	9	2987
+ 	J1	12	96U0
+ 	J1	11	UC59
+ 	J1	10	6989
+ 	J1	9	3FU4
+ 	K1	12	05A6
+ 	K1	11	60H6
+ 	K1	10	PPF6
+ 	K1	9	34C2
+ 	L1	12	58A1
+ 	L1	11	1AA2
+ 	L1	10	F74F
+ 	L1	9	6CF6
+ 	E1	12	F765
+ 	E1	11	CPU8
+ 	E1	10	0000
+ 	E1	9	F515
+ 	F4	2	CC34
+ 	F4	6	A6A3
+ 	A2	6	0000
+ 	B1	2	8A7H
+ 	B1	5	CU2P
+ 	B1	6	1C6C
+ 	B1	9	6U30
+ 	B1	12	5AAH
+ 	B1	15	03A7
+ 	B1	16	9A08
+ 	B1	19	2327
+ 	K/L2	33	6PUP
+USE 1K RESISTOR	K/L2	16	9AFH
+USE 1K RESISTOR	K/L2	8	809A
+ 	F/H2	33	9CPP
+USE 1K RESISTOR	F/H2	16	11C5
+USE 1K RESISTOR	F/H2	8	78AA
+ 	J2	33	8631
+USE 1K RESISTOR	J2	16	11C5
+USE 1K RESISTOR	J2	8	7U19
+ 	E2	34	A1F7
+ 	E2	31	1781
+USE 1K RESISTOR	E2	16	9AFH
+ 	E5	11	C646
+ 	D4	8	0600
+ 	E4	11	CC34
+ USE 1K RESISTOR	F5	11	C835
+ 	D4	6	C4U4
+ 	F5	6	753F
+ 	E4	8	CPU8
+USE 1K RESISTOR	E5	8	45A1
